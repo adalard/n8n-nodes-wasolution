@@ -21,7 +21,7 @@ export class WASolution implements INodeType {
 				},
 		],
 		requestDefaults: {
-				baseURL: 'https://wasolution.getlifeeasy.com/api/create-message',
+				baseURL: 'https://wa.getlifeeasy.com/api/create-message',
 				method: 'POST',
 				headers: {
 					Accept: 'application/json',
@@ -71,7 +71,7 @@ export class WASolution implements INodeType {
 
 			const options = {
 				method: 'POST' as 'POST',
-				uri: 'https://wasolution.getlifeeasy.com/api/create-message',
+				uri: 'https://wa.getlifeeasy.com/api/create-message',
 				formData: {
 					appkey: credentials.appkey,
 					authkey: credentials.authkey,
